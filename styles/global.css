@@ -33,3 +33,10 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+#fortune img {
+    width:300px;
+}
+
+.hide {
+    display: none;
+}
