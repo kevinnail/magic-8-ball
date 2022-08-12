@@ -42,3 +42,31 @@ footer {
 }
 
 
+
+
+
+
+.fade-out {
+    animation:fadeOut 3s;
+    opacity: 1;
+}
+
+@keyframes fade-out {
+    from {opacity:1;}
+    to {opacity: 0;}
+}
+
+.fade-in {
+    animation:fadeIn 3s;
+    opacity: 0;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
