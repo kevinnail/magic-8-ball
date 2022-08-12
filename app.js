@@ -14,28 +14,27 @@ const fortuneContainer = document.getElementById('fortune');
 const result = document.getElementById('result');
 const questionInput = document.getElementById('question-input');
 const answers = [
+    'Yes, definitely',
     'It is certain',
+    'It is decidedly so',
     'Without a doubt',
     'You may rely on it',
-    'Yes definitely',
-    'It is decidedly so',
     'As I see it, yes',
-    'Most likely',
-    'Yes',
+    'Most Likely',
     'Outlook good',
     'Signs point to yes',
-    'Neutral Answers',
-    'Reply hazy try again',
-    'Better not tell you now',
+    'Reply hazy, try again',
     'Ask again later',
+    'Better not tell you now',
     'Cannot predict now',
     'Concentrate and ask again',
     'Don’t count on it',
-    'Outlook not so good',
+    'My reply is no',
     'My sources say no',
+    'Outlook not so good',
     'Very doubtful',
-    'My reply is no'
 ];
+
 
 
 submit.addEventListener('click', handleSubmit);
